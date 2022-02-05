@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(254, 254, 254);
+    font-family: Arial, sans-serif;
+
+}
+
+.item-logo{
+    width: 45px;
+    height: 45px;
+} 
+
+#calender{
+    width: 55px;
+    height: 50px;
+}
+
+.menu-item {
+    font-size: 14px;
+    color: black;
+    text-decoration: none; 
+    margin-right: 14px;
+    position: relative;
+    top: -7px;
+} 
+
+.menu-item:hover {
+    text-decoration: underline; 
+    color: darkblue;
+}
+
+#profile-pic{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%; 
+    margin-right: 16px;
+    margin-left: 2px;
+    position: relative;
+    top: 4px;
+} 
+
+nav{
+    text-align: right;
+
+}
+
+#dropdown-wrapper{
+    display: inline-block;
+}
+
+#dropdown-items{
+    width: 285px;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: absolute; 
+    right: 25px;
+    display: none;
+}
+
+#dropdown-menu{
+    cursor: pointer;
+}
+
+#dropdown-wrapper:hover
+#dropdown-items{
+    display: block;
+}
+
+.app-items{
+    display: inline-block;
+    width: 75px;
+    height: 55px;
+    margin-right: 16px;
+    text-align: center;
+} 
+
+.app-items:first-of-type{
+    margin-bottom: 50px;
+}
+
+.app-items>p{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.app-items:hover{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#dropdown-menu{
+    margin-right: 18px;
+    width: 42px;
+    height: 42px;
+}
+
+main{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+#search-bar{
+    width: 582px;
+    color: #222;
+    border: 1px solid #dfe1ef;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 16px;
+}
+
+#search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);   
+}
+
+#search-bar:focus {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);   
+}
+
+
+form>a>img{
+    width: 28px; 
+    position: relative;
+    right: 50px;
+    top: 9px;
+} 
+
+main>button{
+    background-color:  #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    color: #222;
+} 
+
+main>button:first-of-type{
+    margin-right: 20px;
+}
+
+main>button:hover{
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+}

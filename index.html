@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = “UTF-8”>
+	<title> GOOGLE HOMEPAGE </title>
+    <link rel="stylesheet" href="/google-lookalike/index.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!--navigation bar-->
+        <nav>
+            <a class="menu-item" href="https://www.google.com/gmail"> Gmail </a> 
+            <a class="menu-item" href="https://images.google.com"> Images </a>
+            <!--dropdown menu-->
+            <div id="dropdown-wrapper">
+                <i id="dropdown-menu" class="material-icons">apps</i>
+                <!--dropdown items-->
+                <div id="dropdown-items">
+                    <a class="app-items" href="https://maps.google.com">
+                        <img class="item-logo" src="http://pluspng.com/img-png/google-maps-png-google-maps-icon-1600.png" alt="maps">
+                        <p>MAPS</p>
+                    </a> 
+                    <a class="app-items" href="https://drive.google.com">
+                        <img class="item-logo" src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png" alt="drive">
+                        <p>DRIVE</p>
+                    </a>
+                    <a class="app-items" href="https://www.google.com/calendar">
+                        <img id="calender" src="data:image/png;base64,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" alt="calender">
+                        <p>CALENDER</p>
+                    </a>
+                    <a class="app-items" href="https://images.google.com">
+                        <img class="item-logo" src="https://blogs.acu.edu/innovation_foundry/files/2017/06/google_photos1600.png" alt="photos">
+                        <p>PHOTOS</p>
+                    </a>
+                    <a class="app-items" href="https://keep.google.com">
+                        <img class="item-logo" src="https://i.pinimg.com/originals/09/96/92/099692d1d651d51b7caf3040fce0f748.png" alt="keep">
+                        <p>KEEP</p>
+                    </a>
+                    <a class="app-items" href="https://search.google.com">
+                        <img class="item-logo" src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="google search">
+                        <p>SEARCH</p>
+                    </a>
+                </div> 
+            </div>            
+            <img id="profile-pic" src="https://play-lh.googleusercontent.com/-hpVu0wsUl5U/AAAAAAAAAAI/AAAAAAAAGjA/AMZuuclDDjoME21kO3VDoIXxuK5Qzq_PsA/photo.jpg" alt="profile pic">
+        </nav>
+    </header>
+    <main>
+        <!--google center logo-->
+        <div>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google center logo">
+        </div>
+        <br>
+        <!--search bar-->
+        <form>
+            <input id="search-bar" class="search-bar" type="text" name="search bar">
+            <a href="https://chrome.google.com/webstore/detail/voice-search/hhfkcobomkalfdlmkongnhnhahkmnaad">
+                <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="voice search">
+            </a>
+        </form>
+        <br>
+        <!--buttons-->
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </main>
+</body>
+</html>
